@@ -11,7 +11,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: CD - Export
+      - name: CD Export
       - uses: actions/upload-artifact@v4
         with:
           name: calculadorapython
