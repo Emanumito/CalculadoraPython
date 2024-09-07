@@ -16,5 +16,5 @@ jobs:
         with:
           name: calculadorapython
           path: |
-            **.py
+            main.py
             README.md
