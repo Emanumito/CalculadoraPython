@@ -10,6 +10,7 @@ class Menu:
         }
 
     def exibir_menu(self):
+        print("Bem vindo a Calculadora do projeto\n")
         print("Menu de Operações:")
         print("1. Soma")
         print("2. Subtração")
