@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import patch, MagicMock
-from main import Main
+from main import *
 
 @pytest.fixture
 def main_instance():
