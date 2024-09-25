@@ -1,6 +1,11 @@
+import sys
+import os
 import pytest
 from unittest.mock import patch, MagicMock
-from main import *
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from main import Main
 
 @pytest.fixture
 def main_instance():
