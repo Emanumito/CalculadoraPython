@@ -1,4 +1,4 @@
-from operacoes.operacoes import Soma, Subtracao, Multiplicacao, Divisao, Raiz
+from src.operacoes.operacoes import Soma, Subtracao, Multiplicacao, Divisao, Raiz
 
 class Menu:
     def __init__(self):
