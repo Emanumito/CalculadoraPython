@@ -1,12 +1,13 @@
 import sys
 import os
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 # Adiciona o diretório raiz do projeto ao sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from main import Main, Menu
+from src.main import Main
+
 
 @pytest.fixture
 def main_instance():
