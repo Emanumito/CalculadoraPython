@@ -28,3 +28,9 @@ class Divisao(Operacao):
         if self.valor2 == 0:
             return "Erro: Divisão por zero."
         return self.valor1 / self.valor2
+
+class Raiz(Operacao):
+    def calcular(self):
+        if self.valor1 < 0 and self.valor2 % 2 == 0:
+            return "Erro: Raiz par de número negativo."
+        return pow(self.valor1, 1 / self.valor2)

@@ -1,4 +1,4 @@
-from operacoes.operacoes import Soma, Subtracao, Multiplicacao, Divisao
+from operacoes.operacoes import Soma, Subtracao, Multiplicacao, Divisao, Raiz
 
 class Menu:
     def __init__(self):
@@ -6,7 +6,8 @@ class Menu:
             1: Soma(),
             2: Subtracao(),
             3: Multiplicacao(),
-            4: Divisao()
+            4: Divisao(),
+            5: Raiz()
         }
 
     def exibir_menu(self):
@@ -16,7 +17,8 @@ class Menu:
         print("2. Subtração")
         print("3. Multiplicação")
         print("4. Divisão")
-        print("5. Sair")
+        print("5. Raiz")
+        print("6. Sair")
 
     def executar_operacao(self, opcao):
         if opcao in self.operacoes:
